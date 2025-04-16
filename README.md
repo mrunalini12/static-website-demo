@@ -1,31 +1,59 @@
-# Task 6: Host a Static Website with GitHub Pages
+# Static Website Deployment with GitHub Pages 🌐
 
-## Objective
-The objective of this task was to deploy a simple static HTML website using **GitHub Pages**. 
+This is **DevOps Task 6** from my learning journey — where I deployed a static website using **GitHub Pages**.
 
-## Project Overview
-This project demonstrates how to:
-- Host a static HTML page on GitHub Pages.
-- Apply basic CSS for styling.
-- Deploy a live website accessible via a URL.
+## 🚀 Objective
 
-## Tools Used
-- **GitHub Pages**: For hosting the static site.
-- **HTML/CSS**: For creating and styling the webpage.
-- **Git**: For version control and pushing changes to the GitHub repository.
+Host a simple static HTML website for free using GitHub Pages, and go beyond by implementing Docker and Kubernetes deployment too!
 
-## Features
-- A simple static website hosted on GitHub Pages.
-- **Custom Footer**: "Powered by passion – Mruna"  
-- **Updated Footer**: "Elevate Labs" (since I'm currently working at Elevate Labs) 🚀
-- CSS included directly inside the HTML file to style the page.
+---
 
-## How to View the Live Website
-1. Visit the live website link at:  
-   `https://<your-github-username>.github.io/<your-repo-name>/`
+## 🔧 Tools & Technologies Used
 
-## Steps to Run Locally
-If you'd like to run this project locally, follow these steps:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-github-username>/<your-repo-name>.git
+- HTML & CSS  
+- Git & GitHub  
+- GitHub Pages  
+- Docker  
+- Docker Hub  
+- Kubernetes (Minikube & kubectl)
+
+---
+
+## 🧩 What This Project Covers
+
+✅ Hosting a static website via GitHub Pages  
+✅ Styling with custom CSS  
+✅ Dockerizing the project  
+✅ Pushing the Docker image to Docker Hub  
+✅ Creating Kubernetes manifests  
+✅ Deploying the app using Kubernetes locally  
+✅ Writing clean code & documentation  
+
+---
+
+## 💖 Live Site
+
+🌍 [Visit the Live Website](https://mrunalini12.github.io/static-website-demo/)
+
+---
+
+## 🐳 Docker Image
+
+📦 [Docker Hub Image](https://hub.docker.com/r/mrunalini01/static-website)
+
+To run locally:
+docker pull mrunalini01/static-website:latest
+docker run -d -p 8080:80 mrunalini01/static-website
+
+
+☸️ Kubernetes Deployment
+Apply using:
+kubectl apply -f static-website-deployment.yaml
+kubectl apply -f static-website-service.yaml
+
+
+🪄 Author Note
+This task started as a simple static site but I explored further by integrating Docker & Kubernetes — because I believe in growing beyond boundaries 🌱
+
+Powered by Passion 💫 — Mruna
+
